@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0730AC5E1EA185620059641B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730AC5D1EA185620059641B /* AppDelegate.swift */; };
-		0730AC601EA185620059641B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730AC5F1EA185620059641B /* ViewController.swift */; };
-		0730AC631EA185620059641B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0730AC611EA185620059641B /* Main.storyboard */; };
 		0730AC651EA185620059641B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0730AC641EA185620059641B /* Assets.xcassets */; };
 		0730AC681EA185620059641B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0730AC661EA185620059641B /* LaunchScreen.storyboard */; };
 		0730AC731EA185620059641B /* Miracle_PillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730AC721EA185620059641B /* Miracle_PillTests.swift */; };
 		0730AC7E1EA185620059641B /* Miracle_PillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730AC7D1EA185620059641B /* Miracle_PillUITests.swift */; };
+		0730AC8C1EA1857C0059641B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730AC8B1EA1857C0059641B /* ViewController.swift */; };
+		0730AC8E1EA1859A0059641B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0730AC8D1EA1859A0059641B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* Begin PBXFileReference section */
 		0730AC5A1EA185610059641B /* Miracle Pill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miracle Pill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0730AC5D1EA185620059641B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0730AC5F1EA185620059641B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0730AC621EA185620059641B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0730AC641EA185620059641B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0730AC671EA185620059641B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0730AC691EA185620059641B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		0730AC791EA185620059641B /* Miracle PillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miracle PillUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0730AC7D1EA185620059641B /* Miracle_PillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miracle_PillUITests.swift; sourceTree = "<group>"; };
 		0730AC7F1EA185620059641B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0730AC8B1EA1857C0059641B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../Desktop/ViewController.swift; sourceTree = "<group>"; };
+		0730AC8D1EA1859A0059641B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				0730AC5D1EA185620059641B /* AppDelegate.swift */,
-				0730AC5F1EA185620059641B /* ViewController.swift */,
-				0730AC611EA185620059641B /* Main.storyboard */,
+				0730AC8B1EA1857C0059641B /* ViewController.swift */,
+				0730AC8D1EA1859A0059641B /* Main.storyboard */,
 				0730AC641EA185620059641B /* Assets.xcassets */,
 				0730AC661EA185620059641B /* LaunchScreen.storyboard */,
 				0730AC691EA185620059641B /* Info.plist */,
@@ -237,7 +237,7 @@
 			files = (
 				0730AC681EA185620059641B /* LaunchScreen.storyboard in Resources */,
 				0730AC651EA185620059641B /* Assets.xcassets in Resources */,
-				0730AC631EA185620059641B /* Main.storyboard in Resources */,
+				0730AC8E1EA1859A0059641B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0730AC601EA185620059641B /* ViewController.swift in Sources */,
+				0730AC8C1EA1857C0059641B /* ViewController.swift in Sources */,
 				0730AC5E1EA185620059641B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +299,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0730AC611EA185620059641B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0730AC621EA185620059641B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0730AC661EA185620059641B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
